@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# FastAPI / build
+dist/
+build/
+.coverage
+htmlcov/
+
+# Node / Frontend (if present)
+node_modules/
+dist/
+.cache/
+*.log
+
+# Environments
+.env
+.env.*.local
+venv/
+.venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Audio test artifacts (optional if you don’t want to version them)
+*.wav
+*.mp3
+*.ogg
+*.m4a
+*.webm
+
+
